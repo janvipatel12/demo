@@ -4,12 +4,9 @@ name=input("enter your name:")
 age=int(input("enter your age:"))
 height=float(input("enter your height in meters:"))
 number=(int(input("enter your favourite number:")))
-print (name)
-print (age)
-print(height)
-print(number)
 
-print("Thank you!) Here is the information we collected:")
+
+print("Thank you! Here is the information we collected:")
 
 print("name:", name,
       "(type:", type(name), ",memory address:", id(name),")")
